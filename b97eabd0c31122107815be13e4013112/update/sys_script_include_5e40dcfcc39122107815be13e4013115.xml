@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1058701_github_s.MKTesting</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>MKTesting</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var MKTesting = Class.create();
+MKTesting.prototype = {
+    initialize: function() {
+		gs.log("Script include Testing by MK ");
+    },
+
+    type: 'MKTesting'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-01 09:16:33</sys_created_on>
+        <sys_id>5e40dcfcc39122107815be13e4013115</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MKTesting</sys_name>
+        <sys_package display_value="GitHub - SN" source="x_1058701_github_s">b97eabd0c31122107815be13e4013112</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="GitHub - SN">b97eabd0c31122107815be13e4013112</sys_scope>
+        <sys_update_name>sys_script_include_5e40dcfcc39122107815be13e4013115</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-01 09:16:33</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>5e40dcfcc39122107815be13e4013115</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-01 09:16:33</sys_created_on>
+        <sys_id>7f90d8bcc39122107815be13e40131b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-01 09:16:33</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
